@@ -65,20 +65,4 @@ The script provides functionalities to query the performance data:
 5. **Pass/Fail/Retake Determination**
    - Determines if a student passed, failed, or needs to retake a subject.
 
-## Usage
 
-1. Clone the repository.
-2. Run the script and follow the prompts to input the scores.
-3. Use the provided functions to query the performance data.
-
-## Example
-
-```python
-# Example usage:
-students["GR-0483"].input_scores()  # Input scores for a specific student
-students["GR-0483"].compute_performance()  # Compute performance for the student
-
-print(query_student_performance("GR-0483"))  # Query the performance of a student
-print(query_student_subject_performance("GR-0483", "Math"))  # Query the performance of a student in a specific subject
-print(query_students_by_grade('A'))  # Get list of students with grade A
-print(query_students_by_status('Pass'))  # Get list of students with status Pass
